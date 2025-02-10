@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope Fortune</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+        }
+        input, button {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Horoscope Fortune</h1>
+    <label for="birthMonth">Please enter your birth month (e.g., January):</label>
+    <input type="text" id="birthMonth">
+    <button onclick="generateHoroscope()">Get Horoscope</button>
+    <p id="result"></p>
+
+    <script>
+        // Horoscope Program
+
+        // Define the horoscope signs and their corresponding months
+        const horoscopes = {
+            January: "Capricorn",
+            February: "Aquarius",
+            March: "Pisces",
+            April: "Aries",
+            May: "Taurus",
+            June: "Gemini",
+            July: "Cancer",
+            August: "Leo",
+            September: "Virgo",
+            October: "Libra",
+            November: "Scorpio",
+            December: "Sagittarius"
+        };
+
+        // Define a list of random fortunes
+        const fortunes = [
+            "You will have a great day!",
+            "Something unexpected will happen.",
+            "You will meet someone special.",
+            "A new opportunity is on the horizon.",
+            "You will achieve your goals.",
+            "Happiness is coming your way.",
+            "Be prepared for a challenge.",
+            "Good news is on the way."
+        ];
+
+        function generateHoroscope() {
+            // Get the birth month from the input field
+            let birthMonth = document.getElementById('birthMonth').value;
+
+            // Get the horoscope sign based on the birth month
+            let sign = horoscopes[birthMonth];
+
+            // Generate a random fortune
+            let randomIndex = Math.floor(Math.random() * fortunes.length);
+            let fortune = fortunes[randomIndex];
+
+            // Display the horoscope sign and the random fortune
+            document.getElementById('result').innerText = `Your horoscope sign is ${sign}. Fortune: ${fortune}`;
+        }
+    </script>
+</body>
+</html>
