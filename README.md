@@ -7,5 +7,3 @@ Some projects from Codédex: https://www.codedex.io/@venelouis
 <li><a href="https://venelouis.github.io/codedex/The%20Origins%20Trilogy/Course%202%20CSS/personal-website/index.html">The Origins Trilogy - Course 2 CSS: "Personal Website".</a></li>
 <li><a href="https://venelouis.github.io/codedex/The%20Origins%20Trilogy/Course%203%20JavaScript/CheckpointProject.js">The Origins Trilogy - Course 3 JavaScript: "Horoscope Fortune".</a></li>
 </ul>
-
-The Origins Trilogy/Course 3 JavaScript/CheckpointProject.js
