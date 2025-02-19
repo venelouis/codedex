@@ -14,7 +14,8 @@ Some projects from Codédex: https://www.codedex.io/@venelouis
         </li></a>
 </li>
 </ul>
-    <ul><li>"Pomodo App" (Final Project)</li>
+    <ul>
+        <li><a href="https://venelouis.github.io/codedex/The%20Origins%20Trilogy/Course%203%20JavaScript/Final%20projects/Pomodoro/index.html">"Pomodo App" (Final Project)</li></a>
     </ul>
 
 </ul>
