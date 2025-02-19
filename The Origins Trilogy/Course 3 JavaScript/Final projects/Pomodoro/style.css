@@ -34,8 +34,8 @@ html {
   .app-circle {
     position: relative;
     margin: 0 auto;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
   
   .circle-shape {
@@ -44,8 +44,8 @@ html {
 
   .semi-circle {
     position: absolute;
-    width: 100px;
-    height: 200px;
+    width: 150px;
+    height: 250px;
     box-sizing: border-box;
     border: solid 6px;
   }
@@ -83,11 +83,28 @@ html {
     font-family: 'Droid Sans Mono', monospace;
     font-size: 250%;
     position: relative;
-    top: 50px;
+    top: 40px;
     color: #d8e9ef;
   }
   
   button {
+    position: relative;
+    top: 60px;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #d8e9ef;
+    margin: 5px;
+  }
+  
+  button:hover {
+    color: #90c0d1;
+  }
+
+  .duration-select {
     position: relative;
     top: 50px;
     font-size: 80%;
@@ -97,10 +114,8 @@ html {
     background: none;
     outline: none;
     color: #d8e9ef;
+    margin: 5px;
+    background-color: #333;
+    padding: 5px;
+    border-radius: 5px;
   }
-  
-  button:hover {
-    color: #90c0d1;
-  }
-
-   /* https://www.codedex.io/projects/build-a-pomodoro-app-with-html-css-js */
